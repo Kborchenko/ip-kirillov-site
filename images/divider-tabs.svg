@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 44" fill="none">
+  <defs>
+    <path id="edge" d="M0 23h53c8 0 11-3 15-8l3-4c3-4 6-6 12-6h42c7 0 10 3 14 8l3 4c4 4 7 6 14 6h144"/>
+  </defs>
+  <g stroke="#a3887d" stroke-width="1.2">
+    <use href="#edge"/><use href="#edge" x="5" y="4"/>
+    <use href="#edge" x="10" y="8"/><use href="#edge" x="15" y="12"/>
+  </g>
+  <path d="M1 38h54m179-21h65" stroke="#917c71" stroke-dasharray="1.3 3.5"/>
+  <circle cx="214" cy="23" r="2.7" fill="#8b4c51"/>
+</svg>

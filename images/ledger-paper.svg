@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" preserveAspectRatio="xMaxYMid slice">
+  <defs>
+    <pattern id="ledger" width="96" height="52" patternUnits="userSpaceOnUse">
+      <path d="M0 12.5H96m-96 26h96" stroke="#997f70" stroke-width=".8" stroke-dasharray="1.2 3.4"/>
+      <path d="M79.5 0v52" stroke="#aa9383" stroke-width=".7"/>
+      <path d="M75 12.5h8m-5.5 26h4" stroke="#997f70" stroke-width=".8"/>
+    </pattern>
+    <linearGradient id="ink"><stop stop-color="white" stop-opacity="0"/><stop offset=".48" stop-color="white" stop-opacity=".36"/><stop offset="1" stop-color="white" stop-opacity=".58"/></linearGradient>
+    <mask id="margin"><rect width="480" height="320" fill="url(#ink)"/></mask>
+  </defs>
+  <rect width="480" height="320" fill="url(#ledger)" mask="url(#margin)"/>
+</svg>
