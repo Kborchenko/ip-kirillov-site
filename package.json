@@ -1,0 +1,24 @@
+{
+  "name": "contact-center-agency",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "export:html": "npm run build && node scripts/export-html.mjs",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "parse5": "8.1.1"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@tailwindcss/vite": "^4.1.0",
+    "astro": "^5.16.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

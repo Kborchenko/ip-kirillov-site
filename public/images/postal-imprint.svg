@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294 90" fill="none">
+  <defs>
+    <path id="wave" d="M77 31c18-11 34-11 52-2s32 10 50 1 32-9 50 0 33 9 54-3"/>
+  </defs>
+  <g stroke="#dcbbab" stroke-width="1.35">
+    <g transform="rotate(-10 47 45)">
+      <circle cx="47" cy="45" r="39"/><circle cx="47" cy="45" r="35.5"/>
+      <circle cx="47" cy="45" r="28" stroke-dasharray="1 4.6"/>
+      <path d="M32 36h30v19H32z M32 36l15 11 15-11m-30 19 10-10m20 10L52 45" stroke-linejoin="round"/>
+    </g>
+    <use href="#wave"/><use href="#wave" y="7"/><use href="#wave" y="14"/>
+    <use href="#wave" y="21"/><use href="#wave" y="28"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+---
+import "../styles/site.css";
+import "../styles/registry.css";
+import { Header, Footer } from "../components/Common";
+import { agency } from "../config/agency";
+const { title, description, page } = Astro.props;
+const pageTitle = agency.agencyName ? `${title} — ${agency.agencyName}` : title;
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="preload" href="/fonts/brygada1918-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <Header page={page} />
+    <main id="main" tabindex="-1"><slot /></main>
+    <Footer page={page} />
+    <script>
+      import "../scripts/mail-enquiry.js";
+      const menu = document.querySelector<HTMLDetailsElement>(".mobile-nav");
+      menu?.addEventListener("click", event => {
+        if ((event.target as HTMLElement).closest("a")) menu.open = false;
+      });
+      menu?.addEventListener("keydown", event => {
+        if (event.key === "Escape" && menu.open) {
+          menu.open = false;
+          menu.querySelector("summary")?.focus();
+        }
+      });
+    </script>
+  </body>
+</html>

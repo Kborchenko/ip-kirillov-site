@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <!-- One engraved sector, repeated around the centre of the seal. -->
+    <g id="leaf" stroke-linejoin="round">
+      <path d="M0-105C-29-129-30-154 0-171C30-154 29-129 0-105Z"/>
+      <path d="M0-110C-23-132-24-153 0-166C24-153 23-132 0-110Z"/>
+    </g>
+    <g id="quarter">
+      <use href="#leaf"/><use href="#leaf" transform="rotate(15)"/>
+      <use href="#leaf" transform="rotate(30)"/><use href="#leaf" transform="rotate(45)"/>
+      <use href="#leaf" transform="rotate(60)"/><use href="#leaf" transform="rotate(75)"/>
+    </g>
+    <path id="ruling" d="M0 338H66C118 338 125 308 163 308H228C269 308 277 350 326 350H562C585 350 592 338 612 338H640"/>
+  </defs>
+  <g transform="translate(454 180) rotate(8)" stroke="#a98479">
+    <g stroke-width="1.1">
+      <use href="#quarter"/><use href="#quarter" transform="rotate(90)"/>
+      <use href="#quarter" transform="rotate(180)"/><use href="#quarter" transform="rotate(270)"/>
+    </g>
+    <circle r="104" stroke-width="1.4"/><circle r="100" stroke-width=".8"/>
+    <circle r="94" stroke-width="1.6" stroke-dasharray=".9 5.25"/>
+  </g>
+  <g stroke="#ac9286" stroke-width="1.15">
+    <use href="#ruling"/><use href="#ruling" y="5"/><use href="#ruling" y="10"/>
+    <use href="#ruling" y="15"/><use href="#ruling" y="20"/><use href="#ruling" y="25"/>
+  </g>
+</svg>

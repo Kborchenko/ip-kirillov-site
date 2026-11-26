@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 74" fill="none">
+  <defs><path id="curve" d="M-16 49h68c43 0 43-35 85-35h58c44 0 48 32 88 32h45"/></defs>
+  <g stroke="#a68783" stroke-width="1.4">
+    <use href="#curve" y="-11"/><use href="#curve" y="-6"/><use href="#curve" y="-1"/><use href="#curve" y="4"/>
+    <use href="#curve" y="9"/><use href="#curve" y="14"/><use href="#curve" y="19"/><use href="#curve" y="24"/>
+  </g>
+  <circle cx="178" cy="23" r="4.1" fill="#965763"/>
+</svg>

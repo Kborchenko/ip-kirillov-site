@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 310" fill="none">
+  <defs><pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".95" fill="#ac8c88"/></pattern></defs>
+  <g transform="translate(64 36) rotate(-17 240 190)" stroke="#ae9691" stroke-width="1.4">
+    <path id="card" d="M10 94h86l12-17h68l12 17h188a8 8 0 0 1 8 8v168H10z"/>
+    <use href="#card" x="6" y="-8"/><use href="#card" x="12" y="-16"/><use href="#card" x="18" y="-24"/><use href="#card" x="24" y="-32"/><use href="#card" x="30" y="-40"/><use href="#card" x="36" y="-48"/><use href="#card" x="42" y="-56"/>
+    <path d="M93 180h143m-143 14h98m-98 14h127" stroke="#a99f97"/>
+    <circle cx="55" cy="184" r="12"/><circle cx="55" cy="184" r="3.3" fill="#a52f3d" stroke="none"/>
+  </g>
+  <path d="M387 17h126v57H387z" fill="url(#dots)"/>
+</svg>
